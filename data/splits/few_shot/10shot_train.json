@@ -1,0 +1,402 @@
+[
+  {
+    "image": "data\\processed\\punching_hole\\img_06_425503500_00053.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_06_3403395200_01004.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_06_425616500_00769.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_03_425508100_00017.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_03_425503200_00018.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_03_425613800_00786.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_02_425644200_00681.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_06_3403392100_00869.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_06_4406424500_00002.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_06_3403402100_00857.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_06_3402617400_01102.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_06_4402787700_01015.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_04_425391100_00017.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_02_432220200_00001.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_01_425637700_00001.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_08_3403334300_00853.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_08_3403334600_00681.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_03_425613500_00597.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_08_3403334700_00670.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_01_425391600_00018.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_05_4406645900_00001.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_01_424826800_00002.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_04_425501700_00017.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_08_425505100_00052.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_08_425503300_00053.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_01_424799300_01133.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_01_436067700_00689.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_08_425503800_00053.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_08_425006200_01173.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_05_425391800_00054.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_03_SIS001540_00785.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_01_425008000_00104.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_02_425646200_00629.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_02_4406772100_00371.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_03_424992500_00609.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_01_425007600_00674.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_03_424992300_00216.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_03_424714400_00306.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_03_424992300_00223.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_03_424992500_01102.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_07_425390900_00113.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_08_425391700_00187.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_08_425391700_00191.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_07_435974600_00218.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_02_425507000_00882.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_08_425506100_01058.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_07_425100400_00100.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_04_436163100_00007.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_03_SIS001546_00029.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_07_425100400_00094.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_02_SIS001491_00267.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_07_4406743300_00038.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_02_SIS001564_01335.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_03_4406645900_00364.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_07_424714400_00009.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_08_4406743300_00477.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_02_436153600_00693.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_08_4406743300_00439.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_05_4406743300_00615.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_08_4406743300_00384.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_04_4402622500_00355.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_08_425508200_00363.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_03_425644600_00004.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_05_425503200_00065.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_03_425501800_01148.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_02_3436816100_00153.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_04_4402622500_00364.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_06_425237000_00658.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_07_425507200_00974.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_03_425391800_00255.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\rolled_pit\\img_06_427199900_00007.jpg",
+    "label": "rolled_pit"
+  },
+  {
+    "image": "data\\processed\\rolled_pit\\img_03_436068500_00002.jpg",
+    "label": "rolled_pit"
+  },
+  {
+    "image": "data\\processed\\rolled_pit\\img_03_4402329000_00001.jpg",
+    "label": "rolled_pit"
+  },
+  {
+    "image": "data\\processed\\rolled_pit\\img_02_427146700_00002.jpg",
+    "label": "rolled_pit"
+  },
+  {
+    "image": "data\\processed\\rolled_pit\\img_03_4402117400_00003.jpg",
+    "label": "rolled_pit"
+  },
+  {
+    "image": "data\\processed\\rolled_pit\\img_02_4402785600_00004.jpg",
+    "label": "rolled_pit"
+  },
+  {
+    "image": "data\\processed\\rolled_pit\\img_06_4404580000_00741.jpg",
+    "label": "rolled_pit"
+  },
+  {
+    "image": "data\\processed\\rolled_pit\\img_02_3436787300_00007.jpg",
+    "label": "rolled_pit"
+  },
+  {
+    "image": "data\\processed\\rolled_pit\\img_03_4403956700_00007.jpg",
+    "label": "rolled_pit"
+  },
+  {
+    "image": "data\\processed\\rolled_pit\\img_02_4402116500_00005.jpg",
+    "label": "rolled_pit"
+  },
+  {
+    "image": "data\\processed\\crease\\img_02_4406783500_00008.jpg",
+    "label": "crease"
+  },
+  {
+    "image": "data\\processed\\crease\\img_07_430103100_01150.jpg",
+    "label": "crease"
+  },
+  {
+    "image": "data\\processed\\crease\\img_06_3436786500_00578.jpg",
+    "label": "crease"
+  },
+  {
+    "image": "data\\processed\\crease\\img_01_4402117200_00003.jpg",
+    "label": "crease"
+  },
+  {
+    "image": "data\\processed\\crease\\img_04_4401672100_00003.jpg",
+    "label": "crease"
+  },
+  {
+    "image": "data\\processed\\crease\\img_04_4403690400_00005.jpg",
+    "label": "crease"
+  },
+  {
+    "image": "data\\processed\\crease\\img_02_3436789500_00005.jpg",
+    "label": "crease"
+  },
+  {
+    "image": "data\\processed\\crease\\img_04_4402116700_00002.jpg",
+    "label": "crease"
+  },
+  {
+    "image": "data\\processed\\crease\\img_01_4402117100_00006.jpg",
+    "label": "crease"
+  },
+  {
+    "image": "data\\processed\\crease\\img_01_4403690400_00005.jpg",
+    "label": "crease"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_08_425501100_00051.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_06_3436814000_00006.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_07_4402719100_00014.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_07_3436814000_00011.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_07_4405133600_00046.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_06_4402719100_00020.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_06_424826800_00490.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_05_436164700_01553.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_07_3436786500_00002.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_06_424826800_00497.jpg",
+    "label": "waist_folding"
+  }
+]

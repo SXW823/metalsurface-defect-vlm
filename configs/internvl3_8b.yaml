@@ -1,0 +1,65 @@
+stage: sft
+num_train_epochs: 3.0
+do_train: true
+do_eval: true
+
+# ===== 模型 =====
+model_name_or_path: /rds/projects/w/wangyz-atari/metal_defect_vlm/models/InternVL3-8B-hf
+template: intern_vl
+trust_remote_code: true
+
+# ===== LoRA / 冻结视觉塔 =====
+finetuning_type: lora
+lora_rank: 16
+lora_alpha: 32
+lora_dropout: 0.05
+lora_target: q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj
+freeze_vision_tower: true
+freeze_multi_modal_projector: true
+low_cpu_mem_usage: true
+
+# ===== 数据（多模态图片路径 = media_dir + jsonl里images字段的相对路径）=====
+dataset_dir: /rds/projects/w/wangyz-atari/metal_defect_vlm/data/llamafactory
+dataset: metal_defect_train
+val_size: 0.1
+cutoff_len: 2048
+image_max_pixels: 786432
+image_min_pixels: 784
+media_dir: /rds/projects/w/wangyz-atari/metal_defect_vlm
+
+# ===== 输出 =====
+output_dir: /rds/projects/w/wangyz-atari/metal_defect_vlm/loras/internvl3_8b
+overwrite_output_dir: true
+overwrite_cache: true
+
+# ===== 冒烟测试：只跑2步，全量时把下面两行反过来 =====
+max_steps: -1
+# num_train_epochs: 3
+
+# ===== 训练超参 =====
+per_device_train_batch_size: 1
+per_device_eval_batch_size: 1
+gradient_accumulation_steps: 8
+learning_rate: 0.0001
+max_grad_norm: 1.0
+lr_scheduler_type: cosine
+warmup_steps: 20
+bf16: true
+gradient_checkpointing: true
+
+# ===== 存/评/日志 =====
+save_strategy: steps
+save_steps: 200
+save_total_limit: 3
+save_only_model: false
+eval_strategy: steps
+eval_steps: 200
+logging_steps: 5
+report_to: none
+plot_loss: true
+seed: 42
+ddp_timeout: 180000000
+
+# ===== Apptainer + RDS 防静默被杀的关键调整 =====
+preprocessing_num_workers: 1
+dataloader_num_workers: 0

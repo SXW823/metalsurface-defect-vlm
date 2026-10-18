@@ -1,0 +1,962 @@
+[
+  {
+    "image": "data\\processed\\water_spot\\img_02_4406772100_00695.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_03_4406645900_00001.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_02_425613600_00582.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_04_425622400_00002.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_01_425006200_01173.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_07_435974600_00220.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_04_3402618000_00001.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_01_425005700_00162.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_08_425502700_00052.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_06_3436814600_00007.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_04_4402785000_00001.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_06_4406743300_00001.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_03_3403395700_01033.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_02_4406645900_00339.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_06_3436814000_00691.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_07_424826800_00507.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_08_425508200_00364.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_06_3403405800_00821.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_08_4406743300_00420.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_05_436068100_00002.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_07_4406645900_00746.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_02_425507200_00018.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_06_425614600_00406.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_03_3403401700_00908.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_03_436150300_00330.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\crease\\img_05_4405228100_00452.jpg",
+    "label": "crease"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_03_425505400_01015.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_06_3436639700_00760.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_05_425243500_01116.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_06_3403399100_01155.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_03_436185700_00002.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_08_4406743300_00397.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_02_425646200_00634.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_05_4406743300_00570.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\crease\\img_01_4402270500_00003.jpg",
+    "label": "crease"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_07_4404374100_01367.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_03_3403393800_01156.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_02_424799200_00387.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_01_425005700_00371.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_08_425501100_00051.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_08_4406743300_00384.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_01_425005700_00503.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_06_425237000_00672.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_06_436164200_00003.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_01_425005700_00395.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_03_436152900_00530.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_01_425241700_00432.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_02_4404580000_00068.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_07_436164700_01538.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_04_425243200_00566.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_06_425502300_01407.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_07_4406645900_00152.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_08_425506100_01049.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_08_425508100_01398.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_08_431854700_00034.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_04_4402851900_00001.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_03_425503800_00017.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_03_424826800_00073.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\crease\\img_01_4402270500_00004.jpg",
+    "label": "crease"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_02_425243200_00561.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_02_436153600_00685.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_06_4406743300_00052.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_04_425503200_00019.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_01_425006200_00929.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_06_3437011300_00001.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_04_425502100_00017.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_07_425390700_00052.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_02_436151900_00101.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_06_4406424700_00001.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_08_4405167700_00657.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_04_436163100_00007.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_07_4406645900_00531.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_04_SIS001577_00038.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_06_3436814000_00693.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_01_425005700_00421.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_04_SIS001577_00012.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_03_436152900_00585.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_05_424798500_01235.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_03_3403397300_00901.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_03_3437006500_00033.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_03_436184600_00778.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_01_425005700_00314.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_01_425616300_00001.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\crease\\img_02_4402116700_00002.jpg",
+    "label": "crease"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_08_4406743300_00422.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_05_3403334300_00854.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_02_3403405400_00930.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_01_425005700_00239.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_01_425502200_00018.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_01_424826800_00003.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_03_3403394000_01158.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\rolled_pit\\img_03_436068500_00002.jpg",
+    "label": "rolled_pit"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_01_425005700_00195.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_05_425506100_00052.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_07_425100400_00067.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_04_425380900_00001.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_03_425501800_01166.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_04_4402622500_00378.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_03_425364500_00001.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_04_4402622500_00373.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_03_425502700_00017.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_02_3436813700_00794.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_07_425508700_00363.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_03_3402617700_00053.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_03_424799600_00382.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_05_4406743300_00427.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_05_4406743300_00374.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_04_425613700_00585.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_08_425506100_01068.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_05_4406743300_00384.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_07_3403405500_00670.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_01_425007600_00126.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_06_4406743300_00034.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_06_425507200_00054.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_07_4404897500_00875.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_08_4402304700_01005.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_01_425005700_00211.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_01_4406743300_00447.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_02_425508600_00684.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_02_3436813700_00265.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_01_425005700_00267.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_07_3436814000_00007.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_02_425507200_01511.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_07_4404374100_01321.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_01_4403565100_00038.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_07_4404893900_00568.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_07_4406645900_00559.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_03_436156500_01005.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_06_425237000_00673.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_08_425506100_01053.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_08_3436783900_01352.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_03_3402618000_00035.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_02_436152900_00533.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_06_4406743300_00087.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_01_425005700_00506.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_06_3403392100_00869.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_02_436164700_00001.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_02_436153600_00700.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_05_4406743300_00523.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_03_SIS001540_00800.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_07_425390900_00056.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_01_3402617700_00001.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_04_4406645900_00767.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_06_427199900_01065.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_06_4406743300_00042.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_01_425006600_00905.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_04_436163100_00039.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_03_425391800_00255.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_01_425006600_00499.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_05_425503800_00053.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_08_4406743300_00374.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_01_425005700_00159.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_05_425243500_00952.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_02_4402541100_00001.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_06_4406645900_00477.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_03_425502200_00017.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_02_425508300_00017.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\rolled_pit\\img_03_4402724500_01243.jpg",
+    "label": "rolled_pit"
+  },
+  {
+    "image": "data\\processed\\crease\\img_07_430103100_01150.jpg",
+    "label": "crease"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_07_4405376800_00037.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_08_425006600_00930.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_08_425244400_00900.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_08_436068100_00003.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_06_424826800_00494.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_08_4406743300_00446.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_02_SIS001491_00257.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_02_424799600_00382.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_01_425008000_00252.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_02_SIS001522_00004.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_05_425637900_00899.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_07_3403334800_00898.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_08_4402842500_01043.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_02_425391100_00017.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_01_425241500_01125.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_03_436164700_00257.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_06_4406645900_00475.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_02_436153600_00698.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_03_3402617700_00886.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_01_425392100_00017.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_07_425390900_00087.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_07_4406645900_00530.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_07_425390900_00083.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\crease\\img_01_4402116900_00003.jpg",
+    "label": "crease"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_05_425622400_00001.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_02_4406446600_00072.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_03_436152900_00557.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_07_436164500_01565.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_04_4406743300_00277.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_01_425007600_00674.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\rolled_pit\\img_03_4402724500_01238.jpg",
+    "label": "rolled_pit"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_07_435974600_00226.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_02_3436813700_00320.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_04_425503600_00017.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_02_425389800_00017.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_07_4406645900_00850.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_01_4403565100_00007.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_06_425503600_00053.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_04_431854700_00086.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_06_3403403800_00910.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_01_425502900_00018.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\rolled_pit\\img_02_431854300_00002.jpg",
+    "label": "rolled_pit"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_08_425502600_00052.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_06_425502600_00053.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_02_425392400_00018.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_03_4406425200_00001.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_01_425243300_00234.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_03_4406645900_00418.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_04_425380400_00732.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_03_436184600_00002.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_01_425006200_00530.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_07_4406645900_00805.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_03_436150300_00373.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_01_425241400_00039.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_03_425501800_00018.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_01_4402540800_01483.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_02_425502300_00338.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_02_436152900_00542.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_06_425507000_00054.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_06_4404374100_01306.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_02_425622000_00002.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_01_SIS001577_00041.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_06_425237000_00662.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_02_425507000_00876.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_01_4406743300_00020.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_03_436164500_00818.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_02_425392400_00022.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_05_425505100_00052.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_07_436164700_01552.jpg",
+    "label": "waist_folding"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_01_425508300_00017.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\punching_hole\\img_06_425501800_00053.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_02_436184600_00774.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_07_4406743300_00095.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_04_436163100_00010.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_02_SIS001491_00289.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_08_425505100_00053.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_04_425237600_00367.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_03_425501800_01196.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_02_3436816100_00147.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_06_425503400_00049.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_08_4406743300_00392.jpg",
+    "label": "silk_spot"
+  }
+]

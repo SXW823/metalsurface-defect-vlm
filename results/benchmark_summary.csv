@@ -1,0 +1,2 @@
+Model,Prompt,Accuracy,F1★,F1(wgt),Prec,Rec,Lat(s)
+Gemma3-4B,EP,0.8708,0.8359,0.8675,0.8891,0.8708,2.529

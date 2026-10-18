@@ -1,0 +1,82 @@
+# ======================================================================
+# Metal Defect VLM - .gitignore
+# ======================================================================
+
+# ─── Model weights & checkpoints ───
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.gguf
+
+# ─── LoRA adapter checkpoints (keep configs, ignore weights) ───
+loras/*/checkpoint-*/
+loras/*/optimizer.pt
+loras/*/scheduler.pt
+loras/*/rng_state.pth
+loras/*/trainer_state.json
+loras/*/training_args.bin
+
+# ─── Merged / downloaded base models ───
+models/
+output/*_merged/
+Final model */
+
+# ─── Raw images & processed data (too large for git) ───
+raw_images/
+data/processed/
+
+# ─── Training logs & temporary outputs ───
+logs/
+*.log
+train.log
+output/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.cache/
+
+# ─── Conda / venv environments ───
+.conda/
+venv/
+env/
+.venv/
+homes/
+vlm_defect_project/
+conda_pkgs/
+
+# ─── HPC / OnDemand artifacts ───
+Ondemand/
+
+# ─── Jupyter checkpoints ───
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ─── IDE ───
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS files ───
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Environment variables & secrets ───
+.env
+*.env
+
+# ─── Backup files ───
+*.bak
+*.bak2
+*.tmp
+results.zip
+
+# ─── HuggingFace cache ───
+.cache/huggingface/

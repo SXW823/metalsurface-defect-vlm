@@ -1,0 +1,42 @@
+[
+  {
+    "image": "data\\processed\\punching_hole\\img_03_3403399500_00888.jpg",
+    "label": "punching_hole"
+  },
+  {
+    "image": "data\\processed\\welding_line\\img_04_425508600_00017.jpg",
+    "label": "welding_line"
+  },
+  {
+    "image": "data\\processed\\crescent_gap\\img_05_424799400_01080.jpg",
+    "label": "crescent_gap"
+  },
+  {
+    "image": "data\\processed\\water_spot\\img_01_4403565100_00012.jpg",
+    "label": "water_spot"
+  },
+  {
+    "image": "data\\processed\\oil_spot\\img_08_3437011100_00683.jpg",
+    "label": "oil_spot"
+  },
+  {
+    "image": "data\\processed\\silk_spot\\img_03_436184600_00793.jpg",
+    "label": "silk_spot"
+  },
+  {
+    "image": "data\\processed\\inclusion\\img_02_3436816100_00153.jpg",
+    "label": "inclusion"
+  },
+  {
+    "image": "data\\processed\\rolled_pit\\img_02_425392400_00020.jpg",
+    "label": "rolled_pit"
+  },
+  {
+    "image": "data\\processed\\crease\\img_06_430103100_01150.jpg",
+    "label": "crease"
+  },
+  {
+    "image": "data\\processed\\waist_folding\\img_06_3436639700_00760.jpg",
+    "label": "waist_folding"
+  }
+]

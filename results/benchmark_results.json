@@ -1,0 +1,1879 @@
+[
+  {
+    "model": "Gemma3-4B",
+    "prompt_type": "EP",
+    "accuracy": 0.8708,
+    "f1_macro": 0.8359,
+    "f1_weighted": 0.8675,
+    "precision": 0.8891,
+    "recall": 0.8708,
+    "avg_latency_s": 2.529,
+    "total_samples": 240,
+    "per_class": {
+      "punching_hole": {
+        "precision": 0.7857142857142857,
+        "recall": 0.9565217391304348,
+        "f1-score": 0.8627450980392157,
+        "support": 23.0
+      },
+      "welding_line": {
+        "precision": 1.0,
+        "recall": 0.5714285714285714,
+        "f1-score": 0.7272727272727273,
+        "support": 28.0
+      },
+      "crescent_gap": {
+        "precision": 0.7741935483870968,
+        "recall": 1.0,
+        "f1-score": 0.8727272727272727,
+        "support": 24.0
+      },
+      "water_spot": {
+        "precision": 0.7837837837837838,
+        "recall": 0.9666666666666667,
+        "f1-score": 0.8656716417910447,
+        "support": 30.0
+      },
+      "oil_spot": {
+        "precision": 0.8181818181818182,
+        "recall": 0.8571428571428571,
+        "f1-score": 0.8372093023255814,
+        "support": 21.0
+      },
+      "silk_spot": {
+        "precision": 1.0,
+        "recall": 0.9696969696969697,
+        "f1-score": 0.9846153846153847,
+        "support": 66.0
+      },
+      "inclusion": {
+        "precision": 0.8888888888888888,
+        "recall": 0.6956521739130435,
+        "f1-score": 0.7804878048780488,
+        "support": 23.0
+      },
+      "rolled_pit": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1-score": 0.8571428571428571,
+        "support": 4.0
+      },
+      "crease": {
+        "precision": 0.625,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.7142857142857143,
+        "support": 6.0
+      },
+      "waist_folding": {
+        "precision": 0.9230769230769231,
+        "recall": 0.8,
+        "f1-score": 0.8571428571428571,
+        "support": 15.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        22,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        6,
+        16,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        24,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        29,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        18,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        64,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        6,
+        1,
+        0,
+        16,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        12
+      ]
+    ],
+    "predictions": [
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_02_4406772100_00695.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 3.21
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_03_4406645900_00001.jpg",
+        "true": "welding_line",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.836
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_02_425613600_00582.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.717
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_04_425622400_00002.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 2.087
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_01_425006200_01173.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 2.199
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\oil_spot\\img_07_435974600_00220.jpg",
+        "true": "oil_spot",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 2.901
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_04_3402618000_00001.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 2.824
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_01_425005700_00162.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.037
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_08_425502700_00052.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 2.196
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\waist_folding\\img_06_3436814600_00007.jpg",
+        "true": "waist_folding",
+        "pred": "waist_folding",
+        "raw": "{\"defect_type\": \"waist_folding\", \"severity\": \"严重\", \"description\": \"腰部区域有折叠变形\"}",
+        "lat_s": 2.831
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_04_4402785000_00001.jpg",
+        "true": "welding_line",
+        "pred": "welding_line",
+        "raw": "{\"defect_type\": \"welding_line\", \"severity\": \"轻微\", \"description\": \"表面可见焊接线条痕迹\"}",
+        "lat_s": 2.852
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_06_4406743300_00001.jpg",
+        "true": "welding_line",
+        "pred": "welding_line",
+        "raw": "{\"defect_type\": \"welding_line\", \"severity\": \"轻微\", \"description\": \"表面可见焊接线条痕迹\"}",
+        "lat_s": 2.093
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_03_3403395700_01033.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.066
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_02_4406645900_00339.jpg",
+        "true": "inclusion",
+        "pred": "inclusion",
+        "raw": "{\"defect_type\": \"inclusion\", \"severity\": \"中等\", \"description\": \"表面嵌有异质夹杂物\"}",
+        "lat_s": 2.804
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\waist_folding\\img_06_3436814000_00691.jpg",
+        "true": "waist_folding",
+        "pred": "waist_folding",
+        "raw": "{\"defect_type\": \"waist_folding\", \"severity\": \"严重\", \"description\": \"腰部区域有折叠变形\"}",
+        "lat_s": 3.18
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\waist_folding\\img_07_424826800_00507.jpg",
+        "true": "waist_folding",
+        "pred": "waist_folding",
+        "raw": "{\"defect_type\": \"waist_folding\", \"severity\": \"严重\", \"description\": \"腰部区域有折叠变形\"}",
+        "lat_s": 1.896
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_08_425508200_00364.jpg",
+        "true": "inclusion",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 1.917
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_06_3403405800_00821.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.793
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_08_4406743300_00420.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.9
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_05_436068100_00002.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 2.067
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_07_4406645900_00746.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 1.953
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_02_425507200_00018.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.842
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\waist_folding\\img_06_425614600_00406.jpg",
+        "true": "waist_folding",
+        "pred": "waist_folding",
+        "raw": "{\"defect_type\": \"waist_folding\", \"severity\": \"严重\", \"description\": \"腰部区域有折叠变形\"}",
+        "lat_s": 2.791
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_03_3403401700_00908.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.157
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_03_436150300_00330.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 1.963
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crease\\img_05_4405228100_00452.jpg",
+        "true": "crease",
+        "pred": "crease",
+        "raw": "{\"defect_type\": \"crease\", \"severity\": \"严重\", \"description\": \"材料表面有明显折痕\"}",
+        "lat_s": 2.172
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_03_425505400_01015.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.747
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\waist_folding\\img_06_3436639700_00760.jpg",
+        "true": "waist_folding",
+        "pred": "waist_folding",
+        "raw": "{\"defect_type\": \"waist_folding\", \"severity\": \"严重\", \"description\": \"腰部区域有折叠变形\"}",
+        "lat_s": 2.303
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_05_425243500_01116.jpg",
+        "true": "inclusion",
+        "pred": "inclusion",
+        "raw": "{\"defect_type\": \"inclusion\", \"severity\": \"中等\", \"description\": \"表面嵌有异质夹杂物\"}",
+        "lat_s": 1.816
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_06_3403399100_01155.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.204
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_03_436185700_00002.jpg",
+        "true": "welding_line",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.928
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_08_4406743300_00397.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.572
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_02_425646200_00634.jpg",
+        "true": "inclusion",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 1.859
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_05_4406743300_00570.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.091
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crease\\img_01_4402270500_00003.jpg",
+        "true": "crease",
+        "pred": "crease",
+        "raw": "{\"defect_type\": \"crease\", \"severity\": \"严重\", \"description\": \"材料表面有明显折痕\"}",
+        "lat_s": 2.54
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\waist_folding\\img_07_4404374100_01367.jpg",
+        "true": "waist_folding",
+        "pred": "waist_folding",
+        "raw": "{\"defect_type\": \"waist_folding\", \"severity\": \"严重\", \"description\": \"腰部区域有折叠变形\"}",
+        "lat_s": 2.682
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_03_3403393800_01156.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 1.948
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_02_424799200_00387.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 1.885
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_01_425005700_00371.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.902
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\waist_folding\\img_08_425501100_00051.jpg",
+        "true": "waist_folding",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 2.947
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_08_4406743300_00384.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 1.963
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_01_425005700_00503.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 1.934
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_06_425237000_00672.jpg",
+        "true": "inclusion",
+        "pred": "inclusion",
+        "raw": "{\"defect_type\": \"inclusion\", \"severity\": \"中等\", \"description\": \"表面嵌有异质夹杂物\"}",
+        "lat_s": 2.637
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_06_436164200_00003.jpg",
+        "true": "welding_line",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.862
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_01_425005700_00395.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.127
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_03_436152900_00530.jpg",
+        "true": "silk_spot",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 1.969
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_01_425241700_00432.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 2.531
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_02_4404580000_00068.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 2.83
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\waist_folding\\img_07_436164700_01538.jpg",
+        "true": "waist_folding",
+        "pred": "waist_folding",
+        "raw": "{\"defect_type\": \"waist_folding\", \"severity\": \"严重\", \"description\": \"腰部区域有折叠变形\"}",
+        "lat_s": 2.138
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_04_425243200_00566.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 1.952
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\oil_spot\\img_06_425502300_01407.jpg",
+        "true": "oil_spot",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 2.409
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_07_4406645900_00152.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.883
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\oil_spot\\img_08_425506100_01049.jpg",
+        "true": "oil_spot",
+        "pred": "inclusion",
+        "raw": "{\"defect_type\": \"inclusion\", \"severity\": \"中等\", \"description\": \"表面嵌有异质夹杂物\"}",
+        "lat_s": 2.314
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\oil_spot\\img_08_425508100_01398.jpg",
+        "true": "oil_spot",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 1.987
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_08_431854700_00034.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.203
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_04_4402851900_00001.jpg",
+        "true": "welding_line",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 3.096
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_03_425503800_00017.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.548
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_03_424826800_00073.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 2.13
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crease\\img_01_4402270500_00004.jpg",
+        "true": "crease",
+        "pred": "crease",
+        "raw": "{\"defect_type\": \"crease\", \"severity\": \"严重\", \"description\": \"材料表面有明显折痕\"}",
+        "lat_s": 2.271
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_02_425243200_00561.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 3.914
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_02_436153600_00685.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 3.166
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_06_4406743300_00052.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.088
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_04_425503200_00019.jpg",
+        "true": "inclusion",
+        "pred": "inclusion",
+        "raw": "{\"defect_type\": \"inclusion\", \"severity\": \"中等\", \"description\": \"表面嵌有异质夹杂物\"}",
+        "lat_s": 2.605
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_01_425006200_00929.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 3.717
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_06_3437011300_00001.jpg",
+        "true": "welding_line",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.817
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_04_425502100_00017.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 2.22
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\oil_spot\\img_07_425390700_00052.jpg",
+        "true": "oil_spot",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 2.993
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_02_436151900_00101.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 3.746
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_06_4406424700_00001.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.603
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_08_4405167700_00657.jpg",
+        "true": "welding_line",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 2.153
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\oil_spot\\img_04_436163100_00007.jpg",
+        "true": "oil_spot",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 3.118
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_07_4406645900_00531.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 3.813
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_04_SIS001577_00038.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.376
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\waist_folding\\img_06_3436814000_00693.jpg",
+        "true": "waist_folding",
+        "pred": "waist_folding",
+        "raw": "{\"defect_type\": \"waist_folding\", \"severity\": \"严重\", \"description\": \"腰部区域有折叠变形\"}",
+        "lat_s": 2.106
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_01_425005700_00421.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 3.339
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_04_SIS001577_00012.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 3.754
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_03_436152900_00585.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.124
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_05_424798500_01235.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 2.205
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_03_3403397300_00901.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 3.586
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\oil_spot\\img_03_3437006500_00033.jpg",
+        "true": "oil_spot",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 3.8
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_03_436184600_00778.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.082
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_01_425005700_00314.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.091
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_01_425616300_00001.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 4.011
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crease\\img_02_4402116700_00002.jpg",
+        "true": "crease",
+        "pred": "crease",
+        "raw": "{\"defect_type\": \"crease\", \"severity\": \"严重\", \"description\": \"材料表面有明显折痕\"}",
+        "lat_s": 3.233
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_08_4406743300_00422.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.045
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_05_3403334300_00854.jpg",
+        "true": "welding_line",
+        "pred": "welding_line",
+        "raw": "{\"defect_type\": \"welding_line\", \"severity\": \"轻微\", \"description\": \"表面可见焊接线条痕迹\"}",
+        "lat_s": 2.047
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_02_3403405400_00930.jpg",
+        "true": "welding_line",
+        "pred": "welding_line",
+        "raw": "{\"defect_type\": \"welding_line\", \"severity\": \"轻微\", \"description\": \"表面可见焊接线条痕迹\"}",
+        "lat_s": 3.706
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_01_425005700_00239.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 3.627
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_01_425502200_00018.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 2.077
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_01_424826800_00003.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 2.02
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_03_3403394000_01158.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.887
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\rolled_pit\\img_03_436068500_00002.jpg",
+        "true": "rolled_pit",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 2.887
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_01_425005700_00195.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 1.94
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_05_425506100_00052.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 1.966
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\oil_spot\\img_07_425100400_00067.jpg",
+        "true": "oil_spot",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 2.818
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_04_425380900_00001.jpg",
+        "true": "welding_line",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 3.067
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_03_425501800_01166.jpg",
+        "true": "inclusion",
+        "pred": "inclusion",
+        "raw": "{\"defect_type\": \"inclusion\", \"severity\": \"中等\", \"description\": \"表面嵌有异质夹杂物\"}",
+        "lat_s": 1.817
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_04_4402622500_00378.jpg",
+        "true": "inclusion",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 1.869
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_03_425364500_00001.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.645
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_04_4402622500_00373.jpg",
+        "true": "inclusion",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 2.882
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_03_425502700_00017.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 1.939
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_02_3436813700_00794.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 1.902
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_07_425508700_00363.jpg",
+        "true": "inclusion",
+        "pred": "inclusion",
+        "raw": "{\"defect_type\": \"inclusion\", \"severity\": \"中等\", \"description\": \"表面嵌有异质夹杂物\"}",
+        "lat_s": 2.478
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_03_3402617700_00053.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 2.322
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_03_424799600_00382.jpg",
+        "true": "inclusion",
+        "pred": "inclusion",
+        "raw": "{\"defect_type\": \"inclusion\", \"severity\": \"中等\", \"description\": \"表面嵌有异质夹杂物\"}",
+        "lat_s": 2.002
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_05_4406743300_00427.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 1.947
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_05_4406743300_00374.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 3.129
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_04_425613700_00585.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 2.657
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_08_425506100_01068.jpg",
+        "true": "inclusion",
+        "pred": "inclusion",
+        "raw": "{\"defect_type\": \"inclusion\", \"severity\": \"中等\", \"description\": \"表面嵌有异质夹杂物\"}",
+        "lat_s": 2.131
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_05_4406743300_00384.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 1.941
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_07_3403405500_00670.jpg",
+        "true": "welding_line",
+        "pred": "welding_line",
+        "raw": "{\"defect_type\": \"welding_line\", \"severity\": \"轻微\", \"description\": \"表面可见焊接线条痕迹\"}",
+        "lat_s": 2.15
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_01_425007600_00126.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 2.872
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_06_4406743300_00034.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.324
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_06_425507200_00054.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 1.947
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_07_4404897500_00875.jpg",
+        "true": "welding_line",
+        "pred": "welding_line",
+        "raw": "{\"defect_type\": \"welding_line\", \"severity\": \"轻微\", \"description\": \"表面可见焊接线条痕迹\"}",
+        "lat_s": 1.972
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_08_4402304700_01005.jpg",
+        "true": "welding_line",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 2.793
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_01_425005700_00211.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.982
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_01_4406743300_00447.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.092
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_02_425508600_00684.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 2.346
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_02_3436813700_00265.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 3.744
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_01_425005700_00267.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 3.158
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\waist_folding\\img_07_3436814000_00007.jpg",
+        "true": "waist_folding",
+        "pred": "waist_folding",
+        "raw": "{\"defect_type\": \"waist_folding\", \"severity\": \"严重\", \"description\": \"腰部区域有折叠变形\"}",
+        "lat_s": 2.065
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\oil_spot\\img_02_425507200_01511.jpg",
+        "true": "oil_spot",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 2.484
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\waist_folding\\img_07_4404374100_01321.jpg",
+        "true": "waist_folding",
+        "pred": "waist_folding",
+        "raw": "{\"defect_type\": \"waist_folding\", \"severity\": \"严重\", \"description\": \"腰部区域有折叠变形\"}",
+        "lat_s": 3.721
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_01_4403565100_00038.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 2.946
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_07_4404893900_00568.jpg",
+        "true": "welding_line",
+        "pred": "welding_line",
+        "raw": "{\"defect_type\": \"welding_line\", \"severity\": \"轻微\", \"description\": \"表面可见焊接线条痕迹\"}",
+        "lat_s": 1.939
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_07_4406645900_00559.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.38
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_03_436156500_01005.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 3.74
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_06_425237000_00673.jpg",
+        "true": "inclusion",
+        "pred": "inclusion",
+        "raw": "{\"defect_type\": \"inclusion\", \"severity\": \"中等\", \"description\": \"表面嵌有异质夹杂物\"}",
+        "lat_s": 2.968
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\oil_spot\\img_08_425506100_01053.jpg",
+        "true": "oil_spot",
+        "pred": "inclusion",
+        "raw": "{\"defect_type\": \"inclusion\", \"severity\": \"中等\", \"description\": \"表面嵌有异质夹杂物\"}",
+        "lat_s": 2.024
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_08_3436783900_01352.jpg",
+        "true": "welding_line",
+        "pred": "welding_line",
+        "raw": "{\"defect_type\": \"welding_line\", \"severity\": \"轻微\", \"description\": \"表面可见焊接线条痕迹\"}",
+        "lat_s": 2.32
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_03_3402618000_00035.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 3.679
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_02_436152900_00533.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 3.179
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_06_4406743300_00087.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.076
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_01_425005700_00506.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.597
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_06_3403392100_00869.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 3.774
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_02_436164700_00001.jpg",
+        "true": "welding_line",
+        "pred": "welding_line",
+        "raw": "{\"defect_type\": \"welding_line\", \"severity\": \"轻微\", \"description\": \"表面可见焊接线条痕迹\"}",
+        "lat_s": 2.346
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_02_436153600_00700.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 1.943
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_05_4406743300_00523.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.227
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_03_SIS001540_00800.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 2.697
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\oil_spot\\img_07_425390900_00056.jpg",
+        "true": "oil_spot",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 2.5
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_01_3402617700_00001.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 1.982
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_04_4406645900_00767.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.154
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\oil_spot\\img_06_427199900_01065.jpg",
+        "true": "oil_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 2.798
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_06_4406743300_00042.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.496
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_01_425006600_00905.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 1.88
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\oil_spot\\img_04_436163100_00039.jpg",
+        "true": "oil_spot",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 1.94
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_03_425391800_00255.jpg",
+        "true": "inclusion",
+        "pred": "inclusion",
+        "raw": "{\"defect_type\": \"inclusion\", \"severity\": \"中等\", \"description\": \"表面嵌有异质夹杂物\"}",
+        "lat_s": 2.618
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_01_425006600_00499.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 2.898
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_05_425503800_00053.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 1.993
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_08_4406743300_00374.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 1.941
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_01_425005700_00159.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.613
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_05_425243500_00952.jpg",
+        "true": "inclusion",
+        "pred": "inclusion",
+        "raw": "{\"defect_type\": \"inclusion\", \"severity\": \"中等\", \"description\": \"表面嵌有异质夹杂物\"}",
+        "lat_s": 2.479
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_02_4402541100_00001.jpg",
+        "true": "welding_line",
+        "pred": "welding_line",
+        "raw": "{\"defect_type\": \"welding_line\", \"severity\": \"轻微\", \"description\": \"表面可见焊接线条痕迹\"}",
+        "lat_s": 1.918
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_06_4406645900_00477.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.004
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_03_425502200_00017.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.482
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_02_425508300_00017.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.745
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\rolled_pit\\img_03_4402724500_01243.jpg",
+        "true": "rolled_pit",
+        "pred": "rolled_pit",
+        "raw": "{\"defect_type\": \"rolled_pit\", \"severity\": \"中等\", \"description\": \"表面有密集小凹坑\"}",
+        "lat_s": 1.988
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crease\\img_07_430103100_01150.jpg",
+        "true": "crease",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 1.883
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\waist_folding\\img_07_4405376800_00037.jpg",
+        "true": "waist_folding",
+        "pred": "crease",
+        "raw": "{\"defect_type\": \"crease\", \"severity\": \"严重\", \"description\": \"材料表面有明显折痕\"}",
+        "lat_s": 1.937
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_08_425006600_00930.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 3.041
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_08_425244400_00900.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 2.941
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_08_436068100_00003.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 2.205
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\waist_folding\\img_06_424826800_00494.jpg",
+        "true": "waist_folding",
+        "pred": "waist_folding",
+        "raw": "{\"defect_type\": \"waist_folding\", \"severity\": \"严重\", \"description\": \"腰部区域有折叠变形\"}",
+        "lat_s": 2.731
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_08_4406743300_00446.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 3.131
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_02_SIS001491_00257.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.335
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_02_424799600_00382.jpg",
+        "true": "inclusion",
+        "pred": "inclusion",
+        "raw": "{\"defect_type\": \"inclusion\", \"severity\": \"中等\", \"description\": \"表面嵌有异质夹杂物\"}",
+        "lat_s": 2.127
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_01_425008000_00252.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 2.854
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_02_SIS001522_00004.jpg",
+        "true": "silk_spot",
+        "pred": "waist_folding",
+        "raw": "{\"defect_type\": \"waist_folding\", \"severity\": \"严重\", \"description\": \"腰部区域有折叠变形\"}",
+        "lat_s": 3.11
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_05_425637900_00899.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 2.324
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_07_3403334800_00898.jpg",
+        "true": "welding_line",
+        "pred": "welding_line",
+        "raw": "{\"defect_type\": \"welding_line\", \"severity\": \"轻微\", \"description\": \"表面可见焊接线条痕迹\"}",
+        "lat_s": 2.026
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_08_4402842500_01043.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 2.957
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_02_425391100_00017.jpg",
+        "true": "welding_line",
+        "pred": "welding_line",
+        "raw": "{\"defect_type\": \"welding_line\", \"severity\": \"轻微\", \"description\": \"表面可见焊接线条痕迹\"}",
+        "lat_s": 3.475
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_01_425241500_01125.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 2.491
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_03_436164700_00257.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 2.166
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_06_4406645900_00475.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.766
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_02_436153600_00698.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.849
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\oil_spot\\img_03_3402617700_00886.jpg",
+        "true": "oil_spot",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 2.473
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_01_425392100_00017.jpg",
+        "true": "welding_line",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 2.314
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\oil_spot\\img_07_425390900_00087.jpg",
+        "true": "oil_spot",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 3.382
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_07_4406645900_00530.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 3.672
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\oil_spot\\img_07_425390900_00083.jpg",
+        "true": "oil_spot",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 2.023
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crease\\img_01_4402116900_00003.jpg",
+        "true": "crease",
+        "pred": "crease",
+        "raw": "{\"defect_type\": \"crease\", \"severity\": \"严重\", \"description\": \"材料表面有明显折痕\"}",
+        "lat_s": 1.77
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_05_425622400_00001.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 3.794
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_02_4406446600_00072.jpg",
+        "true": "inclusion",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 3.707
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_03_436152900_00557.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.015
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_07_436164500_01565.jpg",
+        "true": "welding_line",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.029
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_04_4406743300_00277.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 3.902
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_01_425007600_00674.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 3.507
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\rolled_pit\\img_03_4402724500_01238.jpg",
+        "true": "rolled_pit",
+        "pred": "rolled_pit",
+        "raw": "{\"defect_type\": \"rolled_pit\", \"severity\": \"中等\", \"description\": \"表面有密集小凹坑\"}",
+        "lat_s": 1.92
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\oil_spot\\img_07_435974600_00226.jpg",
+        "true": "oil_spot",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 1.995
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_02_3436813700_00320.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 3.716
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_04_425503600_00017.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 3.563
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_02_425389800_00017.jpg",
+        "true": "welding_line",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 2.002
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_07_4406645900_00850.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.204
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_01_4403565100_00007.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 3.768
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_06_425503600_00053.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 3.196
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\oil_spot\\img_04_431854700_00086.jpg",
+        "true": "oil_spot",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 2.128
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_06_3403403800_00910.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.362
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_01_425502900_00018.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 3.656
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\rolled_pit\\img_02_431854300_00002.jpg",
+        "true": "rolled_pit",
+        "pred": "rolled_pit",
+        "raw": "{\"defect_type\": \"rolled_pit\", \"severity\": \"中等\", \"description\": \"表面有密集小凹坑\"}",
+        "lat_s": 2.275
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_08_425502600_00052.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 2.026
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_06_425502600_00053.jpg",
+        "true": "welding_line",
+        "pred": "welding_line",
+        "raw": "{\"defect_type\": \"welding_line\", \"severity\": \"轻微\", \"description\": \"表面可见焊接线条痕迹\"}",
+        "lat_s": 2.12
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_02_425392400_00018.jpg",
+        "true": "welding_line",
+        "pred": "welding_line",
+        "raw": "{\"defect_type\": \"welding_line\", \"severity\": \"轻微\", \"description\": \"表面可见焊接线条痕迹\"}",
+        "lat_s": 2.864
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_03_4406425200_00001.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.554
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_01_425243300_00234.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.018
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_03_4406645900_00418.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 1.94
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_04_425380400_00732.jpg",
+        "true": "inclusion",
+        "pred": "inclusion",
+        "raw": "{\"defect_type\": \"inclusion\", \"severity\": \"中等\", \"description\": \"表面嵌有异质夹杂物\"}",
+        "lat_s": 2.801
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_03_436184600_00002.jpg",
+        "true": "welding_line",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.774
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_01_425006200_00530.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 1.873
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_07_4406645900_00805.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 1.941
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_03_436150300_00373.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.849
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_01_425241400_00039.jpg",
+        "true": "water_spot",
+        "pred": "crease",
+        "raw": "{\"defect_type\": \"crease\", \"severity\": \"严重\", \"description\": \"材料表面有明显折痕\"}",
+        "lat_s": 2.442
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_03_425501800_00018.jpg",
+        "true": "punching_hole",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 2.072
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_01_4402540800_01483.jpg",
+        "true": "welding_line",
+        "pred": "welding_line",
+        "raw": "{\"defect_type\": \"welding_line\", \"severity\": \"轻微\", \"description\": \"表面可见焊接线条痕迹\"}",
+        "lat_s": 1.876
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_02_425502300_00338.jpg",
+        "true": "inclusion",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 2.526
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_02_436152900_00542.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.918
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_06_425507000_00054.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.272
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\waist_folding\\img_06_4404374100_01306.jpg",
+        "true": "waist_folding",
+        "pred": "waist_folding",
+        "raw": "{\"defect_type\": \"waist_folding\", \"severity\": \"严重\", \"description\": \"腰部区域有折叠变形\"}",
+        "lat_s": 1.874
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_02_425622000_00002.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 2.365
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_01_SIS001577_00041.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.78
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_06_425237000_00662.jpg",
+        "true": "inclusion",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 2.368
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\oil_spot\\img_02_425507000_00876.jpg",
+        "true": "oil_spot",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 1.966
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_01_4406743300_00020.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.233
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_03_436164500_00818.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 2.439
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_02_425392400_00022.jpg",
+        "true": "inclusion",
+        "pred": "inclusion",
+        "raw": "{\"defect_type\": \"inclusion\", \"severity\": \"中等\", \"description\": \"表面嵌有异质夹杂物\"}",
+        "lat_s": 2.555
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_05_425505100_00052.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 2.008
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\waist_folding\\img_07_436164700_01552.jpg",
+        "true": "waist_folding",
+        "pred": "crease",
+        "raw": "{\"defect_type\": \"crease\", \"severity\": \"严重\", \"description\": \"材料表面有明显折痕\"}",
+        "lat_s": 1.739
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\welding_line\\img_01_425508300_00017.jpg",
+        "true": "welding_line",
+        "pred": "welding_line",
+        "raw": "{\"defect_type\": \"welding_line\", \"severity\": \"轻微\", \"description\": \"表面可见焊接线条痕迹\"}",
+        "lat_s": 2.654
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\punching_hole\\img_06_425501800_00053.jpg",
+        "true": "punching_hole",
+        "pred": "punching_hole",
+        "raw": "{\"defect_type\": \"punching_hole\", \"severity\": \"中等\", \"description\": \"金属表面存在孔洞状缺陷\"}",
+        "lat_s": 2.763
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_02_436184600_00774.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 1.972
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_07_4406743300_00095.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 1.962
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\oil_spot\\img_04_436163100_00010.jpg",
+        "true": "oil_spot",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 3.003
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_02_SIS001491_00289.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 2.695
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\crescent_gap\\img_08_425505100_00053.jpg",
+        "true": "crescent_gap",
+        "pred": "crescent_gap",
+        "raw": "{\"defect_type\": \"crescent_gap\", \"severity\": \"中等\", \"description\": \"边缘区域有月牙形缺口\"}",
+        "lat_s": 2.006
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\water_spot\\img_04_425237600_00367.jpg",
+        "true": "water_spot",
+        "pred": "water_spot",
+        "raw": "{\"defect_type\": \"water_spot\", \"severity\": \"轻微\", \"description\": \"表面有水渍残留斑痕\"}",
+        "lat_s": 1.873
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_03_425501800_01196.jpg",
+        "true": "inclusion",
+        "pred": "inclusion",
+        "raw": "{\"defect_type\": \"inclusion\", \"severity\": \"中等\", \"description\": \"表面嵌有异质夹杂物\"}",
+        "lat_s": 2.524
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\inclusion\\img_02_3436816100_00147.jpg",
+        "true": "inclusion",
+        "pred": "inclusion",
+        "raw": "{\"defect_type\": \"inclusion\", \"severity\": \"中等\", \"description\": \"表面嵌有异质夹杂物\"}",
+        "lat_s": 2.642
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\oil_spot\\img_06_425503400_00049.jpg",
+        "true": "oil_spot",
+        "pred": "oil_spot",
+        "raw": "{\"defect_type\": \"oil_spot\", \"severity\": \"轻微\", \"description\": \"表面有油污暗色斑痕\"}",
+        "lat_s": 2.219
+      },
+      {
+        "image": "C:\\Users\\SHIRUI\\Desktop\\metal_defect_vlm\\data\\processed\\silk_spot\\img_08_4406743300_00392.jpg",
+        "true": "silk_spot",
+        "pred": "silk_spot",
+        "raw": "{\"defect_type\": \"silk_spot\", \"severity\": \"轻微\", \"description\": \"表面有丝状纹理斑纹\"}",
+        "lat_s": 1.94
+      }
+    ]
+  }
+]

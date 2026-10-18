@@ -1,0 +1,12 @@
+\begin{table}[htbp]
+  \centering
+  \caption{VLM Performance Comparison on Metal Surface Defect Detection (240 images, 10 classes, QLoRA fine-tuning)}
+  \label{tab:vlm_comparison}
+  \begin{tabular}{lccccc}
+    \toprule
+    Model & Accuracy & F1 (macro) & Precision & Recall & Latency (s/img) \\
+    \midrule
+    Qwen2.5-VL & 0.8667 & 0.8414 & 0.8713 & 0.8667 & 1.633 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
